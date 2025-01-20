@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saad's Portfolio</title>
+    <link rel="stylesheet" href="level1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero">
+        <nav class="navbar">
+            <div class="logo">
+                <h1>< Saad Portfolio /></h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#achievements">Achievements</a></li>
+                <li><a href="#blogs">Blogs</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+            </ul>
+        </nav>
+        <div class="hero-content">
+            <div class="hero-text">
+                <h1>Hi all, I'm Suji👋</h1>
+                <p>
+                    A passionate Full Stack Software Developer 🚀 with experience in building Web and Mobile applications using 
+                    <strong>JavaScript / React.js / Node.js / React Native</strong> and other frameworks.
+                </p>
+                <div class="buttons">
+                    <a href="#contact" class="btn primary">Contact Me</a>
+                    <a href="resume.pdf" class="btn secondary" download>See My Resume</a>
+                </div>
+                <div class="social-icons">
+                    <a href="#"><i class="fab fa-github"></i></a>
+                    <a href="#"><i class="fab fa-linkedin"></i></a>
+                    <a href="#"><i class="fab fa-google"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="developer-illustration.png" alt="Developer Illustration">
+            </div>
+        </div>
+    </header>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <h3>Frontend Development</h3>
+                    <p>HTML5, CSS3, JavaScript, React.js, Angular, Responsive Design</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Backend Development</h3>
+                    <p>Node.js, Express.js, Django, RESTful APIs</p>
+                </div>
+                <div class="skill-card">
+                    <h3>Other Skills</h3>
+                    <p>Git, MongoDB, SQL, UI/UX Design, Agile Development</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h3>Portfolio Website</h3>
+                    <p>A responsive portfolio site to showcase my work.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h3>E-commerce App</h3>
+                    <p>An online store with full CRUD functionality.</p>
+                </div>
+                <div class="project-card">
+                    <img src="project3.jpg" alt="Project 3">
+                    <h3>Blog Application</h3>
+                    <p>A blogging platform with user authentication.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>
+                Hi! I’m Saad, a Full Stack Developer with 5+ years of experience. I specialize in creating responsive and efficient web and mobile applications. I'm passionate about solving complex problems and building projects that bring value to users.
+            </p>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="achievements">
+        <div class="container">
+            <h2>Achievements</h2>
+            <ul>
+                <li>Winner of Hackathon XYZ 2022</li>
+                <li>Published a blog on Medium with 10k+ views</li>
+                <li>Developed an app used by 50k+ users</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Blogs Section -->
+    <section id="blogs" class="blogs">
+        <div class="container">
+            <h2>Blogs</h2>
+            <div class="blog-list">
+                <div class="blog-card">
+                    <h3>Understanding JavaScript Closures</h3>
+                    <p>A deep dive into closures and their applications.</p>
+                </div>
+                <div class="blog-card">
+                    <h3>CSS Grid vs Flexbox</h3>
+                    <p>Comparing two powerful layout systems in CSS.</p>
+                </div>
+                <div class="blog-card">
+                    <h3>Top 10 VS Code Extensions</h3>
+                    <p>Enhance your coding productivity with these extensions.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <form action="#">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit" class="btn primary">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Saad Portfolio. All Rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
